@@ -1,0 +1,131 @@
+﻿  PROJECTBANK.cpp
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsString.h(37,19): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsString.h(42,23): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsString.h(53,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsString.h(177,20): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsString.h(289,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsString.h(332,16): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsUtil.h(60,2): warning C4102: 'defualt': unreferenced label
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsUser.h(174,9): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'PROJECTBANK.cpp')
+  E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsUser.h(25,9):
+  see declaration of 'clsUser::stLoginRegisterRecord'
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsBankClient.h(177,9): warning C4240: nonstandard extension used: access to 'clsBankClient::stTransferRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'PROJECTBANK.cpp')
+  E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsBankClient.h(30,9):
+  see declaration of 'clsBankClient::stTransferRegisterRecord'
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsBankClient.h(28,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsBankClient.h(39,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsBankClient.h(40,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsBankClient.h(41,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsBankClient.h(366,22): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsBankClient.h(378,23): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsTotalBalancesScreen.h(55,76): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsTransferScreen.h(45,50): warning C4244: '=': conversion from 'T' to 'float', possible loss of data
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsTransferScreen.h(45,50): warning C4244:         with
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsTransferScreen.h(45,50): warning C4244:         [
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsTransferScreen.h(45,50): warning C4244:             T=double
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsTransferScreen.h(45,50): warning C4244:         ]
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsCurrency.h(27,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(59,36): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(59,36): warning C4244:         with
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(59,36): warning C4244:         [
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(59,36): warning C4244:             T=short
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(59,36): warning C4244:         ]
+  (compiling source file 'PROJECTBANK.cpp')
+  E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(59,36):
+  the template instantiation context (the oldest one first) is
+  	E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsTransactionsScreen.h(26,1):
+  	see reference to class template instantiation 'clsInputValidate<short>' being compiled
+  	E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(55,11):
+  	while compiling class template member function 'T clsInputValidate<T>::ReadTNumberBetween(double,double,std::string)'
+          with
+          [
+              T=short
+          ]
+  		E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsTransactionsScreen.h(26,16):
+  		see the first reference to 'clsInputValidate<short>::ReadTNumberBetween' in 'clsTransactionsScreen::ReadTransactionsMenueOption'
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(59,30): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(59,30): warning C4244:         with
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(59,30): warning C4244:         [
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(59,30): warning C4244:             T=short
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(59,30): warning C4244:         ]
+  (compiling source file 'PROJECTBANK.cpp')
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10): warning C4244: 'return': conversion from 'double' to 'T', possible loss of data
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10): warning C4244:         with
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10): warning C4244:         [
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10): warning C4244:             T=float
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10): warning C4244:         ]
+  (compiling source file 'PROJECTBANK.cpp')
+  E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10):
+  the template instantiation context (the oldest one first) is
+  	E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsAddNewClientScreen.h(30,1):
+  	see reference to class template instantiation 'clsInputValidate<float>' being compiled
+  	E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(44,11):
+  	while compiling class template member function 'T clsInputValidate<T>::ReadTNumber(std::string)'
+          with
+          [
+              T=float
+          ]
+  		E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsAddNewClientScreen.h(30,9):
+  		see the first reference to 'clsInputValidate<float>::ReadTNumber' in 'clsAddNewClientScreen::_ReadClientInfo'
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10): warning C4244: 'return': conversion from 'double' to 'T', possible loss of data
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10): warning C4244:         with
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10): warning C4244:         [
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10): warning C4244:             T=short
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10): warning C4244:         ]
+  (compiling source file 'PROJECTBANK.cpp')
+  E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(52,10):
+  the template instantiation context (the oldest one first) is
+  	E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(44,11):
+  	while compiling class template member function 'T clsInputValidate<T>::ReadTNumber(std::string)'
+          with
+          [
+              T=short
+          ]
+  		E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsInputValidate.h(57,12):
+  		see the first reference to 'clsInputValidate<short>::ReadTNumber' in 'clsInputValidate<short>::ReadTNumberBetween'
+  		E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsTransactionsScreen.h(26,16):
+  		see the first reference to 'clsInputValidate<short>::ReadTNumberBetween' in 'clsTransactionsScreen::ReadTransactionsMenueOption'
+  
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsBankClient.h(325): warning C4715: 'clsBankClient::Save': not all control paths return a value
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsBankClient.h(381): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
+E:\VSPROJECTS\PROJECTBANK\PROJECTBANK\clsUser.h(325): warning C4715: 'clsUser::Save': not all control paths return a value
+  PROJECTBANK.vcxproj -> E:\VSPROJECTS\PROJECTBANK\x64\Debug\PROJECTBANK.exe
